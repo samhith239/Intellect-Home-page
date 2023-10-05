@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.Home-background{
+    background-color:black;
+    height:100%;
+    width:100%;
+    padding:30px;
+}
+
+.Login-button{
+    background-color:#F95F5F;
+    border-radius:10px;
+    height: 40px;
+    top: 40px;
+    left: 80px;
+    color:#ffffff;
+    border-width:0px;
+}
+
+.header-1{
+    margin:10px;
+    width: 1280px;
+    height: 790px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color:#FFF;
+    width:95%;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right:50px;
+    margin-left:20px;
+}
+
+.home-head{
+    width: 499px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 125% */
+}
+
+.home-para{
+    width: 515px;
+    color: #555;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 160% */
+}
+
+.video-prop{
+    fill: #FFF;
+    stroke-width: 1px;
+    stroke: rgba(232, 232, 232, 0.31);
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.home-image{
+    background-image: url("https://img.freepik.com/premium-photo/bed-nightstand-modern-bedroom-equipment-comfortable-restful-experience_56644-265.jpg?w=996");
+    background-size:cover;
+    height:656px;
+    margin-left: 0px;
+    width:800px;
+    border-radius: 20px;
+}
+
+
+.home-card{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 100px;
+    flex-shrink: 0;
+    width:80%;
+    border-radius: 280px;
+    background: #FFF;
+    padding-left:15px;
+    box-shadow: 0px 22px 38px 0px rgba(0, 34, 19, 0.08);
+    margin-top:10px;
+}
+
+
+.card-image{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.card-container{
+    margin:25px;
+}
+
+.search{
+    display: flex;
+    color:#ffffff;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 280px;
+    background-color: rgba(255, 84, 62, 0.80);
+    background-color: #ff543f;
+    margin-right: 0px;
+    width:20%;
+}
+
+.search-para{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    margin-top:15px;
+}
+
+.popular-rooms{
+    margin-top:300px;
+    flex-wrap: wrap;
+}
+
+
+.view-all-button{
+    background-color:#F95F5F ;
+    color: #FFF;
+    font-family: Open Sans; 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+    line-height: 28px; /* 175% */
+}
+.stars{
+    margin-left:15px;
+}
+
+.img{
+    height: 250px;
+    width:290px;
+    border-radius: 10px;
+}
+
+.room-details{
+    color:black;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin:35px;
+    flex-wrap: wrap;
+}
+
+.room-details-head{
+    font-size: 25px;
+    margin-top:8px;
+
+}
+
+.facilities-view{
+    margin-top:250px;
+    width:95%;
+}
+
+.facilities-view1{
+    color:#ffffff
+}
+
+.san{
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #ffffff;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    width: 193px;
+    height: 193px;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    border: 1px;
+}
+
+.history-detail{
+    border-radius: 16px;
+    height:100%;
+    flex-shrink: 0;
+    background: #F4FBF8;
+    margin-top:250px;
+}
+
+.our-History{
+    margin-top: 50px;
+    margin-left: 10px;
+    padding:10px;
+}
+
+.explore-button{
+    background-color:#F95F5F;
+    border-radius:10px;
+    height: 40px;
+    top: 40px;
+    left: 80px;
+    color:#ffffff;
+    border-width:0px;
+    margin-top:50px;
+}
+.img1{
+    flex-shrink:3;
+    width:600px;
+    height: 600px;
+}
+@media (max-width:1280px){
+    .img1{
+        width:400px;
+        height:500px;
+        flex-shrink: 3;
+    }
+}
+
+.para-history{
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 40px;
+}
+
+.questions-detail{
+    width: 1440px;
+    margin-top:250px;
+    color:#ffffff
+}
+
+.question-color{
+    color: #FF7665;
+    font-family: Open Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: capitalize;
+}
+
+.img1{
+    border-radius: 10px;
+}
+
+.faq-card{
+    margin-left:80px;
+    color:black;
+}
+
+.faq1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.faq-detail{
+    border-radius: 5px;
+    border: 1px solid #585858;
+    background: #FFF;   
+    box-shadow: 6px 10px 50px 0px rgba(168, 175, 183, 0.25);
+    margin:15px;
+    width: 95%;
+    padding: 8px;
+    flex-shrink: 0;
+}
+
+.faq-btn{
+    border-width:0px;
+}
+
+.faq-head{
+    color: #0C1623;
+    font-family: Open Sans;
+    font-size: 18px; 
+    font-style: normal;
+    font-weight: 600;
+    line-height: 170%; /* 30.6px */
+    text-transform: capitalize;
+}
+
+.map-container{
+    border-radius: 16px;
+    background: url("map.png"), lightgray 50% / cover no-repeat;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 677px;
+    flex-shrink: 0;
+    margin-top: 250px;
+}
+
+.map-point{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:80px;
+}
+
+
+.visit-us-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 199px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+    padding: 10px;
+    margin:20px;
+}
+
+.email-detail{
+    border-radius:10px;
+    border-width: 0px;
+    margin-left: 45px;
+}
+
+.visit-us-detail{
+    width: 436px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FAFAFA;
+}
+
+.details-container{
+    background-color: #F95F5F;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    color:white;
+    padding-top:20px;
+    height: 343px;
+    flex-shrink: 0;
+    fill: rgba(255, 118, 101, 0.80);
+}
+
+.link-image{
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0; 
+    margin-right:10px;
+    margin-top:50px;
+}
